@@ -95,5 +95,5 @@ END count_wrk_day;
 /*
 Вызов функции для проверки
 */
-SELECT count_wrk_day ('15,03,21','26,07,21')
+SELECT count_wrk_day (to_date('01.03.2021','dd.mm.yyyy'), to_date('01.05.2021','dd.mm.yyyy'))
 FROM dual
